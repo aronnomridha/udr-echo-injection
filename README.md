@@ -1,3 +1,4 @@
+
 # UDR Echo Injection Toolkit (v2.0)
 
 This repository provides tools to generate, inject, and analyze gravitational wave echo signals predicted by the **Unified Distortion Relativity (UDR)** theory. It supports direct injection into real LIGO O4 strain data and includes a template bank for use in search pipelines.
@@ -23,3 +24,19 @@ cd udr-echo-injection
 pip install -r requirements.txt
 python inject_udr_echo.py
 ```
+
+## 📚 Requirements
+
+- `gwpy`
+- `numpy`
+- `matplotlib`
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📄 License
+
+MIT License. Free for academic and non-commercial use.
